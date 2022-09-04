@@ -19,4 +19,51 @@ https://user-images.githubusercontent.com/105242871/188296043-cff403bd-83a1-41c5
 ## Project Goal
 Our goal is to buld the model that supports the "behind the scene" of the mobile application, which uses **deep learning** and **conbolutional neural network**.
 
-## Project Plan
+## :placard:    Process
+#### :one:   Data Acquisition
+
+
+A team of annotators who work closely with the farmers to collect the images from the fields and annotate the image either it's a healhy potato leaf or if it has any diseases using domain knowledge. The team collected 2152 potato-leaf images in total.
+
+#### :two:   Data Preparation
+
+- **tf dataset**
+
+- **Resize & Scale**
+
+- **Data augmentation**
+     
+<summary> Data Splitting</summary>
+
+- Create function `get_dataset_partitions_tf()` to split data into **train, validate, test**
+
+- Test prepare function
+
+- Check the size of each dataset
+     ```sh
+     len(train), len(validate), len(test)
+     ```
+- Call the function, and cache e the 3 data samples
+     ```sh
+    train = train.cache().shuffle(1000).prefetch(buffer_size = tf.data.AUTOTUNE)
+    validate = validate.cache().shuffle(1000).prefetch(buffer_size = tf.data.AUTOTUNE)
+    test = test.cache().shuffle(1000).prefetch(buffer_size = tf.data.AUTOTUNE)
+     ```
+</details>
+
+#### :three:    Modeling
+- Define neural network architecture
+
+- Build model on training dataset and evaluate on train and validate
+
+- Use optimizer to compile
+
+- Fit model on test dataset on evaluate model based on accuracy
+
+- Plot accuracy and loss function of train and validate datasets from all 50 epochs.
+
+- Make prediction on test dataset and save model
+
+- Ajdust neural network architecture and optimizer, using steps above to generate and save new mdoel
+
+- Deploy the top performing model
