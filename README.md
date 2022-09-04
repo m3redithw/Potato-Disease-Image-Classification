@@ -19,7 +19,7 @@ https://user-images.githubusercontent.com/105242871/188296043-cff403bd-83a1-41c5
 ## Project Goal
 Our goal is to buld the model that supports the "behind the scene" of the mobile application, which uses **deep learning** and **conbolutional neural network**.
 
-## :placard:    Process
+## Process
 #### :one:   Data Acquisition
 
 
@@ -67,3 +67,6 @@ A team of annotators who work closely with the farmers to collect the images fro
 - Ajdust neural network architecture and optimizer, using steps above to generate and save new mdoel
 
 - Deploy the top performing model
+
+## Conclusion
+The neurol network model has an accuracy of 99& on test dataset, and it's expected to perform with the equivalent accuracy level on future onseen data.
