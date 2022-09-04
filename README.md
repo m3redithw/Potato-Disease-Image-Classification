@@ -70,3 +70,4 @@ A team of annotators who work closely with the farmers to collect the images fro
 
 ## Conclusion
 The neurol network model has an accuracy of 99& on test dataset, and it's expected to perform with the equivalent accuracy level on future onseen data.
+<img width="883" alt="predictions" src="https://user-images.githubusercontent.com/105242871/188297747-98a86bb0-2296-4136-9048-698f71e47d72.png">
