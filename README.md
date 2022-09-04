@@ -1,4 +1,11 @@
 # Potato Disease Classification
+<a href="#"><img alt="Python" src="https://img.shields.io/badge/Python-00543D.svg?logo=python&logoColor=white"></a>
+<a href="#"><img alt="Pandas" src="https://img.shields.io/badge/Pandas-006750.svg?logo=pandas&logoColor=white"></a>
+<a href="#"><img alt="NumPy" src="https://img.shields.io/badge/Numpy-008B76.svg?logo=numpy&logoColor=white"></a>
+<a href="#"><img alt="Matplotlib" src="https://img.shields.io/badge/Matplotlib-55A38B.svg?logo=matplotlib&logoColor=white"></a>
+<a href="#"><img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-A4C9BB.svg?logo=TensorFlow&logoColor=white"></a>
+<a href="#"><img alt="Keras" src="https://img.shields.io/badge/Keras-C5DDD6.svg?logo=Keras&logoColor=white"></a>
+
 by **[Meredith Wang](https://www.linkedin.com/in/m3redithw/)**
 
 Sep 2022
