@@ -19,3 +19,4 @@ https://user-images.githubusercontent.com/105242871/188296043-cff403bd-83a1-41c5
 ## Project Goal
 Our goal is to buld the model that supports the "behind the scene" of the mobile application, which uses **deep learning** and **conbolutional neural network**.
 
+## Project Plan
