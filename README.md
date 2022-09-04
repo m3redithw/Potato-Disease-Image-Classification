@@ -1,5 +1,3 @@
-![early_and_late](https://user-images.githubusercontent.com/105242871/188295263-761359b7-497f-4563-8df5-a2360e2c8bf0.jpeg)
-
 # Potato Disease Classification
 by **[Meredith Wang](https://www.linkedin.com/in/m3redithw/)**
 
@@ -18,6 +16,8 @@ https://user-images.githubusercontent.com/105242871/188296043-cff403bd-83a1-41c5
 
 ## Project Goal
 Our goal is to buld the model that supports the "behind the scene" of the mobile application, which uses **deep learning** and **conbolutional neural network**.
+
+![early_and_late](https://user-images.githubusercontent.com/105242871/188295263-761359b7-497f-4563-8df5-a2360e2c8bf0.jpeg)
 
 ## Process
 #### :one:   Data Acquisition
