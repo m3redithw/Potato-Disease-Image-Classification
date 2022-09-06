@@ -39,8 +39,9 @@ A team of annotators who work closely with the farmers to collect the images fro
 - **Resize & Scale**
 
 - **Data augmentation**
-     
-<summary> Data Splitting</summary>
+
+<details>
+<summary> Data Splitting </summary>
 
 - Create function `get_dataset_partitions_tf()` to split data into **train, validate, test**
 
